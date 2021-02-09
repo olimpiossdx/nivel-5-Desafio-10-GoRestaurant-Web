@@ -27,9 +27,18 @@
     {
       "image": "https://image.freepik.com/fotos-gratis/pizza-de-frango-saboroso-com-cogumelos-e-especiarias_114579-10840.jpg",
       "name": "Pizza milho",
-      "price": "15,20",
+      "price": "20.30,",
       "description": "Sabororosa pizza de milho, pimentão, queijo e manjericão",
-      "id": 6
+      "available": true,
+      "id": 7
+    },
+    {
+      "image": "https://image.freepik.com/fotos-gratis/pizza-de-frango-saboroso-com-cogumelos-e-especiarias_114579-10840.jpg",
+      "name": "Pizza de marguerita",
+      "price": "18.20",
+      "description": "Sabororosa pizza de  pimentão, queijo e manjericão",
+      "available": true,
+      "id": 8
     }
   ]
 }
