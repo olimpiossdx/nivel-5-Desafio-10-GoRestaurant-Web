@@ -67,7 +67,9 @@ const Dashboard: React.FC = () => {
   }
 
   async function handleDeleteFood(id: number): Promise<void> {
-    await api.delete(`/foods/${id}`);
+    await api.delete(`/foods/${id}`).then(() => {
+      setFoods(foods => foods.filter(food => food.id !== id));
+    });
   }
 
   function toggleModal(): void {
