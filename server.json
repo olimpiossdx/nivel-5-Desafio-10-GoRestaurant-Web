@@ -23,6 +23,35 @@
       "price": "25.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    },
+    {
+      "image": "https://image.freepik.com/fotos-gratis/pizza-de-frango-saboroso-com-cogumelos-e-especiarias_114579-10840.jpg",
+      "name": "Pizza milho",
+      "price": "15,20",
+      "description": "Sabororosa pizza de milho, pimentão, queijo e manjericão",
+      "id": 4
+    },
+    {
+      "image": "https://image.freepik.com/fotos-gratis/pizza-de-frango-saboroso-com-cogumelos-e-especiarias_114579-10840.jpg",
+      "name": "Pizza milho",
+      "price": "15,20",
+      "description": "Sabororosa pizza de milho, pimentão, queijo e manjericão",
+      "id": 5
+    },
+    {
+      "image": "https://image.freepik.com/fotos-gratis/pizza-de-frango-saboroso-com-cogumelos-e-especiarias_114579-10840.jpg",
+      "name": "Pizza milho",
+      "price": "15,20",
+      "description": "Sabororosa pizza de milho, pimentão, queijo e manjericão",
+      "id": 6
+    },
+    {
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
+      "name": "tas",
+      "price": "15,020",
+      "description": "asdasd",
+      "available": true,
+      "id": 7
     }
   ]
 }

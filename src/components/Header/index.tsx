@@ -9,27 +9,20 @@ interface IHeaderProps {
   openModal: () => void;
 }
 
-const Header: React.FC<IHeaderProps> = ({ openModal }) => (
-  <Container>
-    <header>
-      <img src={Logo} alt="GoRestaurant" />
-      <nav>
-        <div>
-          <button
-            type="button"
-            onClick={() => {
-              /* TODO OPEN MODAL */
-            }}
-          >
-            <div className="text">Novo Prato</div>
-            <div className="icon">
-              <FiPlusSquare size={24} />
-            </div>
-          </button>
-        </div>
-      </nav>
-    </header>
-  </Container>
-);
+const Header: React.FC<IHeaderProps> = ({ openModal }) => (<Container>
+  <header>
+    <img src={Logo} alt="GoRestaurant" />
+    <nav>
+      <div>
+        <button type="button" onClick={() => openModal()}>
+          <div className="text">Novo Prato</div>
+          <div className="icon">
+            <FiPlusSquare size={24} />
+          </div>
+        </button>
+      </div>
+    </nav>
+  </header>
+</Container>);
 
 export default Header;
