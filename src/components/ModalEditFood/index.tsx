@@ -41,7 +41,7 @@ const ModalEditFood: React.FC<IModalProps> = ({
     async (data: IEditFoodData) => {
       handleUpdateFood(data);
     },
-    [handleUpdateFood, setIsOpen],
+    [handleUpdateFood],
   );
 
   return (

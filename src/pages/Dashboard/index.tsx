@@ -55,7 +55,7 @@ const Dashboard: React.FC = () => {
     api.put<IFoodPlate>(`/foods/${editingFood.id}`, food).then(response => {
       setFoods(foods => {
         return foods.map(food => {
-          if (food.id == response.data.id) {
+          if (food.id === response.data.id) {
             return { ...response.data, available: true };
           }
           return food;
