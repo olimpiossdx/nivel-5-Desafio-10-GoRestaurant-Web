@@ -28,5 +28,5 @@ Para aplicação web:
 <P>Imagem da aplicação desenolvidda</p>
 <img alt="GoStack" src="./.github/web-go-restaurant-5.png" />
 
-<h4>link para o desafio :<h4>
-https://github.com/rocketseat-education/bootcamp-gostack-desafios/tree/master/desafio-reactjs-crud
+<h4>link para o desafio :
+https://github.com/rocketseat-education/bootcamp-gostack-desafios/tree/master/desafio-reactjs-crud </h4>
